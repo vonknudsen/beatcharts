@@ -1,0 +1,57 @@
+h1 {
+    font-family: "Constantia";
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+h1#title {
+    font-style: italic;
+    position: absolute;
+    right: 30px;
+    text-align: right; 
+}
+
+.genregrid {
+    display: grid;
+    height:600px;
+    grid-template: repeat(5 , 1fr) / repeat(7 , 1fr);
+    position: absolute;
+    left: 200px; 
+    top: 100px;
+
+}
+
+.genregrid div {
+    font-family: "Calibri Light" ,"Trebuchet" , sans-serif ;
+    font-variant: light;
+    text-align: left;
+    font-size: 23px;  
+    border-top-style: dashed;
+    border-right-style: dashed;
+    border-top-color: deepskyblue;
+    border-right-color: deepskyblue;
+}
+
+/* Menu */
+
+.menu button {
+    background-image: url(menubutton.png) ;
+}
+
+header div {
+    overflow: hidden;
+
+}
+
+.menucontent h1 {
+    display: block;
+
+}
+.menucontent a {
+    text-decoration: none;
+    color: black;
+}
+.menu:hover .menucontent {
+    display: block;
+}
